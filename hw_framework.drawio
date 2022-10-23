@@ -1,0 +1,65 @@
+<mxfile host="65bd71144e">
+    <diagram id="ZI99n7Y424cTxG8msU3U" name="Page-1">
+        <mxGraphModel dx="1001" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="33" value="IIC" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeWidth=3;" edge="1" parent="1" source="2" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;MCU&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;STM32H750XBH6&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;TFBGA240+25&lt;/font&gt;&lt;span style=&quot;font-size: 10pt&quot;&gt;&amp;nbsp;14*14mm&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="200" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=block;startFill=1;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="5" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="139.78260869565224" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="170" y="140"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="FMC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="21" vertex="1" connectable="0">
+                    <mxGeometry x="0.125" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;SDRAM&lt;/font&gt;&lt;/h1&gt;&lt;font color=&quot;#000000&quot;&gt;MT48LC16M16A2&lt;br&gt;&lt;span style=&quot;font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22250%22%20y%3D%22130%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+                    <mxGeometry x="75" y="40" width="190" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;startArrow=block;startFill=1;endArrow=block;endFill=1;" edge="1" parent="1" source="8" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="QSPI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="29">
+                    <mxGeometry x="0.1783" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;XIP Flash&lt;/font&gt;&lt;/h1&gt;&lt;font color=&quot;#000000&quot;&gt;W25Q64JVZE&lt;br&gt;8M WSON 8*6mm&lt;br&gt;&lt;span style=&quot;font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22250%22%20y%3D%22130%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="180" width="190" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=3;startArrow=block;startFill=1;endArrow=block;endFill=1;" edge="1" parent="1" source="9" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="SPI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="28">
+                    <mxGeometry x="0.046" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;Data Flash&lt;/font&gt;&lt;/h1&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;W25Q256JVEI&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;32M WSON 8*6mm&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22250%22%20y%3D%22130%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="280" width="190" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: rgb(167 , 201 , 66) ; border: 1px solid rgb(152 , 191 , 33)&quot;&gt;&lt;th&gt;器件&lt;/th&gt;&lt;th&gt;典型电压/mV&lt;/th&gt;&lt;th&gt;典型电流/mA&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;span&gt;STM32H750XB&lt;/span&gt;&lt;/td&gt;&lt;td&gt;3.3&lt;/td&gt;&lt;td&gt;620&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;MT48LC16M16A2&lt;/td&gt;&lt;td&gt;3.3&lt;/td&gt;&lt;td&gt;285&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;span&gt;W25Qxx&lt;/span&gt;&lt;/td&gt;&lt;td&gt;3.3&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;M24C64FMC&lt;/td&gt;&lt;td&gt;3.3&lt;/td&gt;&lt;td&gt;2.5&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;align=center;fontColor=#000000;direction=east;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="390" width="340" height="160" as="geometry">
+                        <mxRectangle x="690" y="414" width="310" height="120" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;EEPROM&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;ST M24C64FMC&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;8K*8 DFN8 2*3mm&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="414" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="* 板载最大电流约1A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="560" width="120" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
