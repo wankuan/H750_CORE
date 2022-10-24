@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="ZI99n7Y424cTxG8msU3U" name="Page-1">
-        <mxGraphModel dx="1001" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="678" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="33" value="IIC" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeWidth=3;" edge="1" parent="1" source="2" target="11">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;MCU&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;STM32H750XBH6&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;TFBGA240+25&lt;/font&gt;&lt;span style=&quot;font-size: 10pt&quot;&gt;&amp;nbsp;14*14mm&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+                <mxCell id="2" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;MCU&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;STM32H750IBK6&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;TFBGA176+25&lt;/font&gt;&lt;span style=&quot;font-size: 10pt&quot;&gt;&amp;nbsp;10*10mm&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
                     <mxGeometry x="70" y="200" width="200" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" style="edgeStyle=none;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=block;startFill=1;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="5" target="2" edge="1">
