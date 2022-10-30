@@ -1,5 +1,4 @@
-Record=TopLevelDocument|FileName=FLASH.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=FLASH.SchDoc|FileName=SDRAM.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=FLASH.SchDoc|FileName=STM32_H750_IO1.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=FLASH.SchDoc|FileName=STM32_H750_IO2.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=FLASH.SchDoc|FileName=STM32_H750_POWER.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=STM32_H750_IO1.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=STM32_H750_IO1.SchDoc|FileName=STM32_H750_IO2.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=STM32_H750_IO1.SchDoc|FileName=STM32_H750_POWER.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=STM32_H750_IO1.SchDoc|FileName=TEST_BTB.SchDoc|SheetNumber=4
